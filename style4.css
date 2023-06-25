@@ -1,0 +1,390 @@
+body{
+	background-image: url("assets/technology/background-technology-desktop.jpg");
+}
+
+
+header{
+	position: absolute;
+    width: 1385px;
+    height: 96px;
+    left: 55px;
+    top: 40px;
+}
+
+nav{
+    width: 830px;
+	height: 96px;
+	background: rgba(255, 255, 255, 0.04);
+	backdrop-filter: blur(40.7742px);
+    position: relative;
+    left: 45%;
+}
+
+ul{
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+		width: 542px;
+		line-height:19px;
+		display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+
+}
+
+a{
+	color: white;
+    text-decoration: none;
+}
+
+header nav ul li a .first-word {
+  font-weight: 700;
+}
+
+.line{
+	position: absolute;
+	width: 473px;
+	height: 1px;
+	left: 167px;
+	top: 88px;
+
+	background: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.25;
+}
+
+.img-containeur img{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 55px;
+	top: 64px;
+}
+
+
+.a1{
+	position: absolute;
+	width: 382px;
+	height: 34px;
+	left: 166.5px;
+	top: 212px;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 34px;
+	letter-spacing: 4.725px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.premier{
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	letter-spacing: 4.725px;
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.25;
+	margin-right:25px;
+}
+
+.lienTechnology{
+	border-bottom: 3px solid white;
+	padding-bottom: 34px;
+}
+
+.technologyPicture{
+	position: absolute;
+	width: 515px;
+	height: 527px;
+	left: 925px;
+	top: 272px;
+}
+
+.technologyContaineur{
+	position: absolute;
+	width: 470px;
+	height: 303px;
+	left: 325px;
+	top: 383px;
+}
+
+.pTerminology{
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 2.7px;
+	color: #D0D6F9;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.technologyTitre{
+	position: absolute;
+	height: 64px;
+	left: 0%;
+	right: 0%;
+	top: -16px;
+	font-family: 'Bellefair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 64px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+
+.technologyDescription{
+	position: absolute;
+	height: 192px;
+	left: 0%;
+	right: 5.53%;
+	top: calc(50% - 192px/2 + 55.5px);
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	color: #D0D6F9;
+}
+
+.tdiv1{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 165px;
+	top: 383px;
+	background-color: white;
+	border-radius: 100px;
+
+}
+
+.tdiv2{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 165px;
+	top: 495px;
+	border-radius: 100px;
+	border: 1px solid #ffffff26;
+}
+
+.tdiv3{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 165px;
+	top: 607px;
+	border-radius: 100px;
+	border: 1px solid #ffffff26;
+}
+
+
+
+.tp1,.tp2,.tp3{
+	transform: translateY(-25%);
+	font-family: 'Bellefair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+	letter-spacing: 2px;
+	}
+.tp1{
+	color: #0B0D17;
+}
+
+.tp2,.tp3{
+	color: #FFFFFF;
+}
+
+.headerButton{
+	position: absolute;
+	width: 24px;
+	height: 21px;
+	left: 327px;
+	top: 33px;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items:center;
+	display: none;
+}
+
+
+.innerButton{
+	width: 24px;
+	height: 3px;
+	background-color: #D0D6F9;
+}
+
+@media (max-width: 375px){
+
+	br{
+		display: none;
+	}
+
+	body{
+		background-image: url("assets/technology/background-technology-mobile.jpg");
+	}
+
+	.line{
+		display: none;
+	}
+
+	.img-containeur img{
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 24px;
+		top: 24px;
+
+	}
+
+	 header{
+	 	position: absolute;
+		width: 254px;
+		height: 667px;
+		left: 121px;
+		top: 0px;
+		z-index: 2;
+		display: none;
+ }
+
+ nav{
+ 		width: 100%;
+ 		height: 100%;
+ 		position: static;
+ }
+
+  ul{
+ 		width: 222px;
+ 		height: 210px;
+ 		padding-top: 118px;
+ 		padding-left: 32px;
+ 		position: static;
+ 		transform: none;
+ 		display: flex;
+ 		flex-direction: column;
+ 		justify-content: space-between;
+ 		align-items: flex-start;
+ }
+
+ 	.headerButton{
+ 		display: flex;
+ 		z-index: 3;
+ }
+
+ .a1{
+ 	position:absolute;
+ 	left: 50%;
+  transform: translateX(-50%);
+	top: 88px;
+ 	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 2.7px;
+	width:auto;
+ }
+
+ .premier{
+ 	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 2.7px;
+	margin-right: 16px;
+ }
+
+ .lienTechnology{
+ 	padding-right: 140px;
+ 	border-right: 4px solid white;
+ 	padding-bottom: 0;
+ 	border-bottom: none;
+ }
+
+.technologyPicture {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 375px;
+  height: 170px;
+  top: 144px;
+}
+
+.imgTechnology {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tdiv1,.tdiv2,.tdiv3{
+	width: 40px;
+  height: 40px;
+  top: 356px;
+}
+
+.tp1,.tp2,.tp3{
+	font-size: 16px;
+  transform: translateY(-37%);
+}
+
+.tdiv1{
+	left:110px;
+}
+
+.tdiv2{
+	left:50%;
+	transform: translateX(-50%);
+}
+
+.tdiv3{
+	left:226px;
+}
+
+.technologyContaineur{
+	width: 327px;
+  height: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 425px;
+}
+
+.pTerminology{
+	position: absolute;
+  font-size: 14px;
+  letter-spacing: 2.3px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.technologyTitre{
+	font-size: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  text-align: center;
+  top: -13px;
+}
+
+.technologyDescription{
+	font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  top: 45px;
+
+}
+
+}
